@@ -378,10 +378,10 @@ class PlFdData(BaseModel):
         validation_alias=AliasChoices("point_to_planet", "pointToPlanet"),
         serialization_alias="pointToPlanet",
     )
-    centers_number: int = Field(
-        validation_alias=AliasChoices("centers_number", "centersNumber"),
-        serialization_alias="centersNumber",
-    )
+    # centers_number: int = Field(
+    #     validation_alias=AliasChoices("centers_number", "centersNumber"),
+    #     serialization_alias="centersNumber",
+    # )
 
 
 class FdSubStruct(BaseModel):
